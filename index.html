@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="thumb_imresizer.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Vaccines PT Kalventis Sinergi Farma</title>
+
+        <!-- Authentication Check - Must be before body loads -->
+    <script>
+        // Check authentication immediately before page loads
+        (function() {
+            const isLoggedIn = sessionStorage.getItem('isLoggedIn');
+            if (!isLoggedIn || isLoggedIn !== 'true') {
+                // Redirect to login page immediately
+                window.location.replace('login.html');
+            }
+        })();
+    </script>
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="vivaldi.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Music Control Button -->
+    <button id="musicToggle" class="music-toggle" aria-label="Toggle background music">
+        <i class="fas fa-volume-up"></i>
+    </button>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="KALVENTIS.jpg" alt="PT Kalventis Logo">
+                <span>Vaccines Help Protect Us</span>
+            </a>
+            <nav id="mainNav">
+                <a href="#home" class="active">Home</a>
+                <a href="#products">Produk Vaksin</a>
+                <a href="#vademecum">Vademecum</a>
+                <a href="#vaccine-hub">Vaccine Hub</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="profile-badge">
+                <img src="KALVENTIS.jpg" alt="Hendri Effendy">
+                <div class="profile-info">
+                    <h3>Vaccines</h3>
+                    <p>Innovation for Disease Prevention & Control</p>
+                </div>
+            </div>
+            <h1>Vaccines Universe</h1>
+            <p class="tagline">Solusi Vaksinasi Terpercaya untuk Kesehatan Anda</p>
+            <p class="location">Jl. Jend. Ahmad Yani No. 2, Kayu Putih, Pulogadung<br>Jakarta Timur, 13210, Indonesia</p>
+            <div class="contact-links">
+                <a href="https://wa.me/628121333066" target="_blank" class="contact-btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> <span>+62 812 1333 066</span>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vaccineshelpprotectus@gmail.com" class="contact-btn email-btn">
+                    <i class="fas fa-envelope"></i> <span>vaccineshelpprotectus@gmail.com</span>
+                </a>
+                <a href="https://www.instagram.com/kenapaharusvaksin" target="_blank" class="contact-btn instagram-btn">
+                    <i class="fab fa-instagram"></i> <span>@kenapaharusvaksin</span>
+                </a>
+                <a href="https://www.facebook.com/kenapaharusvaksin" target="_blank" class="contact-btn facebook-btn">
+                    <i class="fab fa-facebook"></i> <span>kenapaharusvaksin</span>
+                </a>
+                <a href="https://www.kalventis.co.id" target="_blank" class="contact-btn website-btn">
+                    <i class="fas fa-globe"></i> <span>www.kalventis.co.id</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-header">
+            <h2>💉 Produk Vaksin Tersedia</h2>
+            <p>Pilih vaksin yang sesuai dengan kebutuhan Anda</p>
+        </div>
+        <div class="products-grid">
+            <!-- Product 1: VaxigripTetra -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="150" height="60" src="VaxigripTetra-removebg-preview.png" alt="VaxigripTetra Logo">
+                </div>
+                <div class="product-image">
+                    <img src="VaxigripTetra NH SH Prod.jpg" alt="VaxigripTetra NH/SH">
+                </div>
+                <div class="product-info">
+                    <h3>VaxigripTetra NH/SH</h3>
+                    <p class="product-type">Influenza Split Quadrivalen Vaccines</p>
+                    <p class="product-price">Rp 221.445</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia 6 bulan - ≤ 9 tahun</strong></p>
+                        <div class="read-more-content">
+                            <p>(Belum pernah divaksin flu): </p>
+                        <p>Dua dose jarak 28 hari (0-1 bulan), diulang setiap tahun</p>
+                        <p><strong>Usia  ≥ 9 tahun - lansia</strong></p> 
+                        <p>1 dose, diulang tiap tahun</p>
+                        <p><strong>Ibu Hamil (semua Trisemester)</strong></p> 
+                        <p>1 dose</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular dan/ atau Subkutan
+                        </div>
+                        <button class="read-more-btn">Baca Selengkapnya</button>
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20VaxigripTetra%20NH%2FSH%20-%20Influenza%20Split%20Quadrivalen%20Vaccines%20(Rp%20221.445)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 2: MenQuadfi -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="100" height="60" src="Menquadfi-removebg-preview.png" alt="MenQuadfi Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Menquadfi prod.jpg" alt="MenQuadfi">
+                </div>
+                <div class="product-info">
+                    <h3>MenQuadfi</h3>
+                    <p class="product-type">Meningococcal Conjugate Vaccines</p>
+                    <p class="product-price">Rp 702.630</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia ≥ 12 bulan - lansia</strong></p>
+                        <p><strong>Untuk penggunaan:</strong></p>
+                        <div class="read-more-content">
+                            <p>a. Indonesia: 1 dose tanpa booster (seumur hidup)</p>
+                            <p>b. Tanah suci, Haji/Umroh: 1 dose proteksi 5 tahun (sesuai ICV)</p>
+                            <p>c. Negara Afrika dan negara lainnya: 1 dose proteksi 8 tahun (tergantung rekomendasi negara bersangkutan)</p>
+                            <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                        </div>
+                        <button class="read-more-btn">Baca Selengkapnya</button>
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20MenQuadfi%20-%20Meningococcal%20Conjugate%20Vaccines%20(Rp%20702.630)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 3: Stamaril Pasteur -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="60" src="Stamaril_Pasteur-removebg-preview.png" alt="Stamaril Pasteur Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Stamaril Pasteur Prod.jpg" alt="Stamaril Pasteur">
+                </div>
+                <div class="product-info">
+                    <h3>Stamaril Pasteur</h3>
+                    <p class="product-type">Yellow Fever (YF) Vaccines</p>
+                    <p class="product-price">Rp 390.923</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia 9 bulan - lansia</strong></p>
+                        <p>Booster: diulang setiap 10 tahun</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular dan/ atau Subkutan
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Stamaril%20Pasteur%20-%20Yellow%20Fever%20Vaccines%20(Rp%20390.923)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 4: Typhim Vi -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="60" src="75eea3a7-0687-4fce-92ff-1d9f6ea03597_removalai_preview.png" alt="Typhim Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Typhim prod.jpg" alt="Typhim Vi">
+                </div>
+                <div class="product-info">
+                    <h3>Typhim Vi</h3>
+                    <p class="product-type">Typhoid Vaccines</p>
+                    <p class="product-price">Rp 232.955</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia 2 tahun - lansia</strong></p>
+                        <p>Booster: diulang setiap 3 tahun</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular dan/ atau Subkutan
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Typhim%20Vi%20-%20Typhoid%20Vaccines%20(Rp%20232.955)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 5: Verorab -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="30" src="ddc28c80-1961-45c2-9bba-70f6d6f7608b_removalai_preview.png" alt="Verorab Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Verroab prod.jpg" alt="Verorab">
+                </div>
+                <div class="product-info">
+                    <h3>Verorab</h3>
+                    <p class="product-type">Rabies Vaccines</p>
+                    <p class="product-price">Rp 445.110</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Indikasi Preventif dan Kuratif</strong></p>
+                        <p>Rabies Treatment & Prophylaxis (IM)</p>
+                        <div class="read-more-content">
+                            <p><strong>Pre-Exposure Prophylaxis (PrEP):</strong></p>
+                            <p><span style="color: #020c74cc;">Dose Primer : </span>hari ke 0, 7 dan 21</p>
+ <p><span style="color: #020c74cc;">Booster pertama : </span>12 bulan</p>
+ <p><span style="color: #020c74cc;">Booster kedua : </span>5 tahun</p>
+ <p><span style="color: #020c74cc;">Booster lanjutan : </span>diulang tiap 5 tahun</p>
+                            <p><strong>Post-Exposure Prophylaxis (PEP):</strong></p>
+                            <i><p>A. Pasien belum pernah divaksin:</p></i>
+                            <p>1. Essen Schedule: 5 seri dose 0.5cc hari ke 0, 3, 7, 14 dan 21-28 + serum (RIG) hari ke 0</p>
+                            <p>2. Zagreb Schedule: 3 seri dose 0.5cc hari ke 0 (2x0.5cc), 7, 21 + serum (RIG) hari ke 0</p>
+                            <i><p>B. Pasien sudah pernah divaksin: </i></p>
+                                <p>Dua dose 0.5cc pada hari ke 0 dan 3 (Serum tidak diperlukan)</p>
+                                <span style="color: #FF0000;">Pemberian: </span> Intramuskular 
+                        </div>
+                        <button class="read-more-btn">Baca Selengkapnya</button>
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Verorab%20-%20Rabies%20Vaccines%20(Rp%20445.110)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 13: Imojev -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="60" src="Imojev-removebg-preview.png" alt="Imojev Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Imojev prod.jpg" alt="Imojev">
+                </div>
+                <div class="product-info">
+                    <h3>Imojev</h3>
+                    <p class="product-type">Japanese Encephalitis (JE) Vaccines</p>
+                    <p class="product-price">Rp 383.744</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia 9 bulan - ≤ 16 tahun</strong></p>
+                        <p>2 dose (jarak 1-2 tahun)</p>
+                        <p>Tanpa Booster</p>
+                        <p><b>Usia ≥ 16 tahun - lansia</b></p>
+                        <p> 1 dose tanpa booster</p>
+                         <span style="color: #FF0000;">Pemberian: </span> Subkutan
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Imojev%20-%20Japanese%20Encephalitis%20Vaccines%20(Rp%20383.744)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 7: Euvax B Adult -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="60" src="23b69b14-0f27-46a3-9019-5ccb34e2c071_removalai_preview.png" alt="Euvax B Adult Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Euvax Adult prod.jpg" alt="Euvax B Adult">
+                </div>
+                <div class="product-info">
+                    <h3>Euvax B Adult</h3>
+                    <p class="product-type">Hepatitis B Adult Vaccines</p>
+                    <p class="product-price">Rp 119.880</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia ≥ 16 tahun - lansia</strong></p>
+                        <p>Jadwal: 0, 1, dan 6 bulan</p>
+                        <p>Booster: tergantung titer antibodi</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Euvax%20B%20Adult%20-%20Hepatitis%20B%20Adult%20Vaccines%20(Rp%20119.880)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 8: Avaxim 160 -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="40" src="45da1765-0186-4335-9ade-3c087673bb68_removalai_preview.png" alt="Avaxim 160 Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Avaxim 160 prod.jpg" alt="Avaxim 160">
+                </div>
+                <div class="product-info">
+                    <h3>Avaxim 160</h3>
+                    <p class="product-type">Hepatitis A Adult Vaccines</p>
+                    <p class="product-price">Rp 380.769</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia ≥ 16 tahun - lansia</strong></p>
+                        <p>Dua dose, jarak 6 bulan :</p>
+                        <p>(0 - (6 - 12)) bulan</p>
+                        <p>Dua dose proteksi seumur hidup</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Avaxim%20160%20-%20Hepatitis%20A%20Adult%20Vaccines%20(Rp%20380.769)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 6: Euvax B Ped -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="60" src="61e8c22d-f2a1-4f03-908d-23f998286fee_removalai_preview.png" alt="Euvax B Ped Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Euvax 0.5 prod.jpg" alt="Euvax B Ped">
+                </div>
+                <div class="product-info">
+                    <h3>Euvax B Ped</h3>
+                    <p class="product-type">Hepatitis B Pediatric Vaccines</p>
+                    <p class="product-price">Rp 87.605</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia 0 - ≤ 16 tahun</strong></p>
+                        <p>Jadwal: 0, 1, dan 6 bulan</p>
+                        <p>Booster: tergantung titer antibodi</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Euvax%20B%20Ped%20-%20Hepatitis%20B%20Pediatric%20Vaccines%20(Rp%2087.605)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 9: Avaxim 80 -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="40" src="f2850d1e-4546-4284-926b-2ef7d00cbf87_removalai_preview.png" alt="Avaxim 80 Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Avaxim 80 prod.jpg" alt="Avaxim 80">
+                </div>
+                <div class="product-info">
+                    <h3>Avaxim 80</h3>
+                    <p class="product-type">Hepatitis A Pediatric Vaccines</p>
+                    <p class="product-price">Rp 340.577</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia 1 - 16 tahun</strong></p>
+                        <p>Dua dose, jarak 6 bulan :</p>
+                        <p>(0 - (6 - 12)) bulan</p>
+                        <p>Dua dose proteksi seumur hidup</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Avaxim%2080%20-%20Hepatitis%20A%20Pediatric%20Vaccines%20(Rp%20340.577)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 10: Hexaxim -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="40" src="b2a7015e-7d08-479e-82e9-fac50fe28cb1_removalai_preview.png" alt="Hexaxim Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Hexaxim prod.jpg" alt="Hexaxim">
+                </div>
+                <div class="product-info">
+                    <h3>Hexaxim</h3>
+                    <p class="product-type">DTaP Hib IPV Hep B Vaccines</p>
+                    <p class="product-price">Rp 838.658</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Dose primer:</strong></p>
+                        <p>Usia 2, 3, 4 bulan (2, 4, 6 bulan)</p>
+                        <p><b>Booster pertama :</b> 18 bulan</p>
+                        <p>Booster kedua dilanjutkan dengan <b>Tetraxim</b></p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Hexaxim%20-%20DTaP%20Hib%20IPV%20Hep%20B%20Vaccines%20(Rp%20838.658)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 11: Tetraxim -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="40" src="Tetraxim-removebg-preview.png" alt="Tetraxim Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Tetraxim prod.jpg" alt="Tetraxim">
+                </div>
+                <div class="product-info">
+                    <h3>Tetraxim</h3>
+                    <p class="product-type">DTaP IPV Vaccines</p>
+                    <p class="product-price">Rp 409.590</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Booster kedua</strong></p>
+                        <p>Usia 4 - 13 tahun</p>
+                        <p>Booster ketiga dilanjutkan dengan <b>Adacel</b></p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Tetraxim%20-%20DTaP%20IPV%20Vaccines%20(Rp%20409.590)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Product 12: Adacel -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="50" src="Adacel-removebg-preview.png" alt="Adacel Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Adacel 3CA24C7.jpg" alt="Adacel">
+                </div>
+                <div class="product-info">
+                    <h3>Adacel</h3>
+                    <p class="product-type">Tdap Vaccines</p>
+                    <p class="product-price">Rp 349.650</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Booster ketiga</strong></p>
+                        <p><span style="color: #020c74cc;">Usia 10 tahun - lansia</span>
+                        <p>Satu dose diulang setiap 10 tahun</p>
+                        <p><span style="color: #020c74cc;">Ibu Hamil (trisemester ke tiga)</span>
+                        <p>Satu dose, diberikan antara minggu ke-24 dan ke-36</p>
+                        <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Adacel%20-%20Tdap%20Vaccines%20(Rp%20349.650)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 14: Inlive -->
+            <div class="product-card">
+                <div class="product-logo">
+                    <img width="120" height="60" src="Inlive-removebg-preview.png" alt="Inlive Logo">
+                </div>
+                <div class="product-image">
+                    <img src="Inlive Prod.jpg" alt="Inlive">
+                </div>
+                <div class="product-info">
+                    <h3>Inlive</h3>
+                    <p class="product-type">HFMD Vaccines</p>
+                    <p class="product-price">Rp 832.500</p>
+                    <p class="price-note">Harga sudah include PPN</p>
+                    <div class="product-desc">
+                        <p><strong>Usia 6 bulan - 3 tahun</strong></p>
+                        <p>2 dose (jarak 28 hari)</p>
+                         <span style="color: #FF0000;">Pemberian: </span> Intramuskular
+                    </div>
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20ingin%20membeli%20Inlive%20-%20HFMD%20Vaccines%20(Rp%20832.500)" class="btn-buy">
+                        <i class="fab fa-whatsapp"></i> Klik untuk Membeli
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vademecum Section -->
+    <section class="vademecum" id="vademecum">
+        <div class="section-header">
+            <h2>📚 Vademecum Vaccines</h2>
+            <p>Informasi lengkap produk vaksin untuk tenaga medis</p>
+        </div>
+        <div class="vademecum-container">
+            <div class="vademecum-card">
+                <div class="vademecum-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="vademecum-content">
+                    <h3>Vademecum Vaccines</h3>
+                    <p class="vademecum-desc">Dokumen komprehensif berisi informasi detail tentang seluruh produk vaksin Sanofi Pasteur, termasuk indikasi, dosis, cara pemberian, dan informasi keamanan.</p>
+                    
+                    <!-- Interactive Document Categories -->
+                    <div class="document-categories">
+                        <!-- NIE Category -->
+                        <div class="doc-category-card" data-category="nie">
+                            <div class="doc-category-header">
+                                <div class="doc-icon-wrapper">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="doc-category-title">
+                                    <h4>NIE</h4>
+                                    <p>Nomor Izin Edar</p>
+                                </div>
+                                <div class="doc-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="doc-category-content">
+                                <div class="doc-preview-image">
+                                    <img src="https://i.ibb.co.com/0TJY34R/Untitled-design.png" alt="NIE Preview">
+                                </div>
+                                <a href="https://drive.google.com/drive/folders/13FSdTf1cBJZJDzoyEGaVjGxu_rUhPF_-?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-folder-open"></i>
+                                    <span>Akses Dokumen NIE</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Product Information Category -->
+                        <div class="doc-category-card" data-category="product-info">
+                            <div class="doc-category-header">
+                                <div class="doc-icon-wrapper">
+                                    <i class="fas fa-info-circle"></i>
+                                </div>
+                                <div class="doc-category-title">
+                                    <h4>Product Information</h4>
+                                    <p>Informasi Lengkap Produk</p>
+                                </div>
+                                <div class="doc-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="doc-category-content">
+                                <div class="doc-preview-image">
+                                    <img src="Vademecum SanofiPasteur 2022 Ori (1)-1_page-0001.jpg" alt="Product Info Preview">
+                                </div>
+                                <a href="https://drive.google.com/drive/folders/1wxD6T7hS8USyPCDziwKA_zMZj60IZP_w?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-folder-open"></i>
+                                    <span>Akses Product Information</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Brosur Category with Subcategories -->
+                        <div class="doc-category-card" data-category="brosur">
+                            <div class="doc-category-header">
+                                <div class="doc-icon-wrapper">
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                                <div class="doc-category-title">
+                                    <h4>Brosur</h4>
+                                    <p>Materi Edukasi Tertulis</p>
+                                </div>
+                                <div class="doc-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="doc-category-content">
+                                <div class="doc-subcategories">
+                                    <div class="doc-preview-image">
+                                    <img src="https://asset.kompas.com/crop/0x34:880x620/750x500/data/photo/2017/11/20/203003314.jpg" alt="AWAM">
+                                </div>
+                                    <!-- Brosur Awam -->
+                                    <div class="doc-subcategory">
+                                        <div class="doc-sub-header">
+                                            <i class="fas fa-users"></i>
+                                            <h5>1. Brosur Layman/Awam</h5>
+                                        </div>
+                                        
+                                        <a href="https://drive.google.com/drive/folders/19OWqPN0S29PxqG-jfnaR1WprJPqVrtO3?usp=sharing" target="_blank" class="doc-access-btn subcategory-btn">
+                                            <i class="fas fa-folder-open"></i>
+                                            <span>Akses Brosur Awam</span>
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Brosur HCP -->
+                                    <div class="doc-subcategory">
+                                        <div class="doc-sub-header">
+                                            <i class="fas fa-user-md"></i>
+                                            <h5>2. Brosur HCP</h5>
+                                        </div>
+                                        
+                                        <a href="https://drive.google.com/drive/folders/12R1XDCBqc31eKkC0L6rDF4c4xHsWd3l3?usp=sharing" target="_blank" class="doc-access-btn subcategory-btn">
+                                            <i class="fas fa-folder-open"></i>
+                                            <span>Akses Brosur HCP</span>
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- News Category -->
+                        <div class="doc-category-card" data-category="product-info">
+                            <div class="doc-category-header">
+                                <div class="doc-icon-wrapper">
+                                    <i class="fas fa-file"></i>
+                                </div>
+                                <div class="doc-category-title">
+                                    <h4>News Letter</h4>
+                                    <p>Headline News</p>
+                                </div>
+                                <div class="doc-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="doc-category-content">
+                                <div class="doc-preview-image">
+                                    <img src="https://www.lboro.ac.uk/media/wwwlboroacuk/external/content/mediacentre/pressreleases/2020/04/corona-newspaper.jpg" alt="Product Info Preview">
+                                </div>
+                                <a href="https://drive.google.com/drive/folders/1VXtO_BvCWsOuzGwyHfbjlCTDbAdLRGJa?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-folder-open"></i>
+                                    <span>Akses News Letter</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Video Edukasi Category with Subcategories -->
+                        <div class="doc-category-card" data-category="video">
+                            <div class="doc-category-header">
+                                <div class="doc-icon-wrapper">
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="doc-category-title">
+                                    <h4>Video Edukasi</h4>
+                                    <p>Materi Pembelajaran Visual</p>
+                                </div>
+                                <div class="doc-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="doc-category-content">
+                                <div class="doc-subcategories">
+                                    <!-- Video Laymen - Awam -->
+                                    <div class="doc-subcategory">
+                                        <div class="doc-sub-header">
+                                            <i class="fas fa-play-circle"></i>
+                                            <h5>1. Video Laymen - Awam</h5>
+                                        </div>
+                                        <div class="doc-preview-image">
+                                    <img src="https://www.sanofi.com/optim/dotcom/pages/images/our-science/vaccines-manufacturing/202307_MS_France_Karine-Roblot_Sanofi_23--1-_20250515074623.jpg?size=xlarge" alt="AWAM">
+                                </div>
+
+                                        <a href="https://drive.google.com/drive/folders/1MhxR7ksfloA_LSZUPZcs1VERSZgm2lMO?usp=sharing" target="_blank" class="doc-access-btn subcategory-btn">
+                                            <i class="fas fa-folder-open"></i>
+                                            <span>Akses Video Laymen</span>
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Video HCP -->
+                                    <div class="doc-subcategory">
+                                        <div class="doc-sub-header">
+                                            <i class="fas fa-graduation-cap"></i>
+                                            <h5>2. Video HCP</h5>
+                                        </div>
+                                        <div class="doc-preview-image">
+                                    <img src="https://www.sanofi.com/optim/dot-shared/images/research-development/christine-dureuil-sizaire-principal-scientist-vitry-sur-seine-france-2_20251210102208.jpg?size=medium" alt="HCP">
+                                </div>
+                                        <h3>(Video HCP belum tersedia untuk saat ini.)</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Other Document Category -->
+                        <div class="doc-category-card" data-category="other">
+                            <div class="doc-category-header">
+                                <div class="doc-icon-wrapper">
+                                    <i class="fas fa-folder"></i>
+                                </div>
+                                <div class="doc-category-title">
+                                    <h4>Other Document</h4>
+                                    <p>Dokumen Pendukung Lainnya</p>
+                                </div>
+                                <div class="doc-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="doc-category-content">
+                                <div class="doc-preview-image">
+                                    <img src="https://www.sanofi.com/optim/dotcom/pages/images/career/career-portal-thumbnail_20240515151016.jpg?size=large" alt="Other Documents Preview">
+                                </div>
+                                <a href="https://drive.google.com/drive/folders/1HGXVhL4ZfnlUgXQ2aQOPC9YOvBXWpm9W?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-folder-open"></i>
+                                    <span>Akses Dokumen Lainnya</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vaccine Hub Section -->
+    <section class="vaccine-hub" id="vaccine-hub">
+        <div class="section-header">
+            <h2>🏥 Vaccine Hub</h2>
+            <p>Pusat Informasi Lengkap Vaksinasi</p>
+        </div>
+
+        <div class="hub-container">
+            <!-- 1. Immunization Schedule -->
+            <div class="hub-card" data-hub="schedule">
+                <div class="hub-header">
+                    <div class="hub-icon-wrapper">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="hub-title">
+                        <h3>Immunization Schedule</h3>
+                        <p>Jadwal Imunisasi Lengkap</p>
+                    </div>
+                    <div class="hub-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="hub-content">
+                    <div class="hub-image">
+                        <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1638100413/attached_image/imunisasi.jpg" alt="Vaccine Schedule">
+                    </div>
+                    <div class="schedule-info">
+                        <a href="https://drive.google.com/drive/folders/1xd8b7P-_5gN4CUmO90UH4cnroy5zffrP?usp=sharing" target="_blank" class="doc-access-btn">
+                            <i class="fas fa-folder-open"></i>
+                            <span>Akses Jadwal Imunisasi Lengkap</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Recommendation -->
+            <div class="hub-card" data-hub="recommendation">
+                <div class="hub-header">
+                    <div class="hub-icon-wrapper">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="hub-title">
+                        <h3>Recommendation</h3>
+                        <p>Rekomendasi Vaksinasi</p>
+                    </div>
+                    <div class="hub-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="hub-content">
+                    <div class="hub-image">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800" alt="Recommendation">
+                    </div>
+                    <div class="schedule-info">
+                        <a href="https://drive.google.com/drive/folders/1b_weZZnhGySOyuXSSmZdUHyYkVH-hEXU?usp=sharing" target="_blank" class="doc-access-btn">
+                            <i class="fas fa-folder-open"></i>
+                            <span>Akses Recommendations From Experts</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <div class="schedule-info">
+                        <a href="https://docs.google.com/document/d/1RatWqGH2RgXT3fmp5wchgktfGbdz7woTIoQbZJejHoY/edit?usp=sharing" target="_blank" class="doc-access-btn">
+                            <i class="fas fa-book"></i>
+                            <span>Reference</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div><br><br>
+                    <!-- Influenza Subsection with Dropdown -->
+                    <div class="travel-subsection-dropdown">
+                        <div class="subsection-dropdown-header">
+                            <div class="subsection-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h4>Northern and Southern Hemisphere Countries</h4>
+                            <div class="subsection-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="subsection-dropdown-content">
+                            <div class="hub-image">
+                                <img src="https://c.tadst.com/gfx/1280x720/northern-hemisphere.png?1" alt="Influenza">
+                            </div>
+                            <div class="influenza-charts">
+                                <div class="chart-item">
+                                    <div class="chart-image">
+                                        <img src="canada.jpg" alt="Grafik Influenza Indonesia">
+                                    </div>
+                                    <div class="chart-desc">
+                                        <h5>Northern Hemisphere Countries</h5>
+                                        <p>Australia merupakan salah satu negara di belahan negara selatan. Peak musim flu terjadi di Q2 dan Q3 (April - September), sehingga penggunaan vaksin flu SH sangat dianjurkan.
+Namun untuk px yg sudah mendapatkan vaksin flu NH melakukan traveling ke negara belahan selatan, akan terjadi penurunan efektivitas +/-10% (perubahan satu strain, tergantung jumlah perubahan strain yang terjadi)</p>
+                                    </div>
+                                </div>
+                                <div class="chart-item">
+                                    <div class="chart-image">
+                                        <img src="indo.jpg" alt="Grafik Efektivitas Vaksin">
+                                    </div>
+                                    <div class="chart-desc">
+                                        <h5>Equatorial Countries</h5>
+                                        <p>Indonesia merupakan salah satu negara di Equator (garis khatulistiwa) 
+Posisi berada ditengah, sebagian mengarah ke utara dan sebagian mengarah ke selatan, dari data yg ada virus flu bisa bercampur NH dan SH, tidak ada peak musim flu sehingga peak bisa terjadi sepanjang tahun
+(Puncak Flu di negara Indonesia sepanjang tahun)
+Sehingga bisa digunakan vaksin flu NH dan / atau SH</p>
+                                    </div>
+                                </div>
+                                <div class="chart-item">
+                                    <div class="chart-image">
+                                        <img src="aus.jpg" alt="Grafik Cakupan Vaksinasi">
+                                    </div>
+                                    <div class="chart-desc">
+                                        <h5>Southern Hemisphere Countries</h5>
+                                        <p>Australia merupakan salah satu negara di belahan negara selatan. Peak musim flu terjadi di Q2 dan Q3 (April - September), sehingga penggunaan vaksin flu SH sangat dianjurkan.
+Namun untuk px yg sudah mendapatkan vaksin flu NH melakukan traveling ke negara belahan selatan, akan terjadi penurunan efektivitas +/-10% (perubahan satu strain, tergantung jumlah perubahan strain yang terjadi)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Travel Vaccines -->
+            <div class="hub-card" data-hub="travel">
+                <div class="hub-header">
+                    <div class="hub-icon-wrapper">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <div class="hub-title">
+                        <h3>Travel Vaccines</h3>
+                        <p>Vaksinasi untuk Perjalanan</p>
+                    </div>
+                    <div class="hub-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="hub-content">
+                    
+                    <!-- Haji Umroh Subsection with Dropdown -->
+                    <div class="travel-subsection-dropdown">
+                        <div class="subsection-dropdown-header">
+                            <div class="subsection-icon">
+                                <i class="fas fa-kaaba"></i>
+                            </div>
+                            <h4>Hajj & Umra</h4>
+                            <div class="subsection-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="subsection-dropdown-content">
+                            <div class="travel-content">
+                                <div class="travel-image">
+                                    <img src="https://aktual.com/wp-content/uploads/2021/08/images-19.jpeg" alt="Haji Umroh">
+                                </div>
+                                <div class="travel-info">
+                                    <h5>Vaksinasi untuk Haji & Umroh</h5>
+                                    <ul class="vaccine-list">
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>MenQuadfi (Meningitis Conjugate)</strong>
+                                                <p>Wajib - Minimal 10 hari sebelum keberangkatan, berlaku 5 tahun sesuai International Certificate of Vaccination (ICV)</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Polio (IPV)</strong>
+                                                <p>Perlindungan terhadap penyakit polio yang dapat menyebabkan kelumpuhan. Dianjurkan bagi jamaah untuk mencegah penularan dan memenuhi persyaratan kesehatan perjalanan.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>VaxigripTetra (Influenza)</strong>
+                                                <p>Direkomendasikan - Perlindungan terhadap flu musiman yang penting mengingat kepadatan jamaah</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Pneumonia (PPSV23, PCV15, dan PCV20)</strong>
+                                                <p>Perlindungan terhadap bakteri Streptococcus pneumoniae dengan proteksi seumur hidup (PCV) dan 5 tahun (PPSV23)</p>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+
+                            </div>
+                             <a href="https://drive.google.com/file/d/1xD0FKMzyixUJEkB86lMVXHurU85Kr54s/view?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-book"></i>
+                                    <span>Reference</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <!-- MIGRANT WORKERS with Dropdown -->
+                    <div class="travel-subsection-dropdown">
+                        <div class="subsection-dropdown-header">
+                            <div class="subsection-icon">
+                                <i class="fas fa-ship"></i>
+                            </div>
+                            <h4>Migrant Workers and Ship Crews</h4>
+                            <div class="subsection-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="subsection-dropdown-content">
+                            <div class="travel-content">
+                                <div class="travel-image">
+                                    <img src="https://st2.depositphotos.com/1000260/7269/i/450/depositphotos_72693597-stock-photo-group-of-people-in-builder.jpg" alt="Migrant Workers">
+                                </div>
+                                <div class="travel-info">
+                                    <h5>Vaksinasi untuk Pelajar Internasional</h5>
+                                    <ul class="vaccine-list">
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Stamaril Pasteur (Yellow Fever)</strong>
+                                                <p>Wajib untuk negara-negara tertentu (Afrika - Sub Sahara, dan Amerika Selatan) - Proteksi seumur hidup</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Avaxim & Euvax (Hepatitis A & B)</strong>
+                                                <p>Direkomendasikan untuk perlindungan jangka panjang terhadap infeksi hepatitis</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Typhim Vi (Tifoid)</strong>
+                                                <p>Penting untuk negara dengan sanitasi terbatas - Booster setiap 3 tahun</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>VaxigripTetra (Influenza)</strong>
+                                                <p>Direkomendasikan untuk musim dingin di negara empat musim - Diulang setiap tahun</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Adacel (Tdap)</strong>
+                                                <p>Booster untuk perlindungan terhadap difteri, tetanus, dan pertusis</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Varicella & MMR</strong>
+                                                <p>Untuk perlindungan terhadap varicella, dan MMR</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="https://docs.google.com/document/d/1_KN9m2fnLjPUlKgjZHdCcn0c-lg7K8FQW7fzXjTLBfk/edit?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-book"></i>
+                                    <span>Reference</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <!-- Study Abroad Subsection with Dropdown -->
+                    <div class="travel-subsection-dropdown">
+                        <div class="subsection-dropdown-header">
+                            <div class="subsection-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>Study Abroad</h4>
+                            <div class="subsection-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="subsection-dropdown-content">
+                            <div class="travel-content">
+                                <div class="travel-image">
+                                    <img src="https://imageio.forbes.com/specials-images/imageserve/5c5ca76131358e2a162e99ee/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds" alt="Study Abroad">
+                                </div>
+                                <div class="travel-info">
+                                    <h5>Vaksinasi untuk Pelajar Internasional</h5>
+                                    <ul class="vaccine-list">
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>MenQuadfi (Meningitis)</strong>
+                                                <p>Wajib untuk negara-negara tertentu (Amerika Serikat, Inggris, Australia) - Proteksi seumur hidup</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Hepatitis A & B (Avaxim & Euvax)</strong>
+                                                <p>Direkomendasikan untuk perlindungan jangka panjang terhadap infeksi hepatitis</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Typhim Vi (Tifoid)</strong>
+                                                <p>Penting untuk negara dengan sanitasi terbatas - Booster setiap 3 tahun</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>VaxigripTetra (Influenza)</strong>
+                                                <p>Direkomendasikan untuk musim dingin di negara empat musim - Diulang setiap tahun</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Adacel (Tdap)</strong>
+                                                <p>Booster untuk perlindungan terhadap difteri, tetanus, dan pertusis</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="https://docs.google.com/document/d/1mqgSU4gf6mqFMLB3U4_C8HMiQ8v5Q-VLGrTweIZQGok/edit?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-book"></i>
+                                    <span>Reference</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <!-- Travel (General) Subsection with Dropdown -->
+                    <div class="travel-subsection-dropdown">
+                        <div class="subsection-dropdown-header">
+                            <div class="subsection-icon">
+                                <i class="fas fa-suitcase-rolling"></i>
+                            </div>
+                            <h4>Travel (Wisata & Bisnis)</h4>
+                            <div class="subsection-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="subsection-dropdown-content">
+                            <div class="travel-content">
+                                <div class="travel-image">
+                                    <img src="Traveling aman dg Vaccines (1).jpg" alt="Travel">
+                                </div>
+                                <div class="travel-info">
+                                    <h5>Vaksinasi untuk Perjalanan Wisata & Bisnis</h5>
+                                    <ul class="vaccine-list">
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Stamaril Pasteur (Yellow Fever)</strong>
+                                                <p>Wajib untuk perjalanan ke negara-negara Afrika dan Amerika Selatan - Booster setiap 10 tahun</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Typhim Vi (Tifoid)</strong>
+                                                <p>Direkomendasikan untuk Asia, Afrika, dan Amerika Latin - Booster setiap 3 tahun</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Hepatitis A (Avaxim)</strong>
+                                                <p>Penting untuk negara dengan sanitasi terbatas - 2 dosis proteksi seumur hidup</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Imojev (Japanese Encephalitis)</strong>
+                                                <p>Untuk perjalanan ke daerah rural di Asia - Proteksi jangka panjang</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Verorab (Rabies)</strong>
+                                                <p>Pre-exposure prophylaxis untuk petualangan outdoor dan kontak dengan hewan</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="https://docs.google.com/document/d/1PIj1u2S9E3xxSqxS_I2_2_mDJbbKMrp6vVi48jgWM78/edit?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-book"></i>
+                                    <span>Reference</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <!-- Army and Police Subsection with Dropdown -->
+                    <div class="travel-subsection-dropdown">
+                        <div class="subsection-dropdown-header">
+                            <div class="subsection-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Army & Police (TNI & Polri)</h4>
+                            <div class="subsection-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="subsection-dropdown-content">
+                            <div class="travel-content">
+                                <div class="travel-image">
+                                    <img src="https://portalkota.id/wp-content/uploads/2023/05/Kapolri-Jenderal-Listyo-Sigit-Prabowo-bersama-para-personil-Div-Hubinter.Rizki_.jpeg" alt="Army and Police">
+                                </div>
+                                <div class="travel-info">
+                                    <h5>Vaksinasi untuk Personel TNI & Polri</h5>
+                                    <ul class="vaccine-list">
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Adacel (Tdap)</strong>
+                                                <p>Booster wajib setiap 10 tahun - Perlindungan terhadap difteri, tetanus, dan pertusis</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Hepatitis B (Euvax B Adult)</strong>
+                                                <p>Perlindungan terhadap hepatitis B - Jadwal 0, 1, dan 6 bulan</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Typhim Vi (Tifoid)</strong>
+                                                <p>Untuk penugasan di daerah endemis - Booster setiap 3 tahun</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>VaxigripTetra (Influenza)</strong>
+                                                <p>Vaksinasi tahunan untuk menjaga kesiapan operasional</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Verorab (Rabies)</strong>
+                                                <p>Pre-exposure prophylaxis untuk personel di daerah terpencil atau hutan</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>MenQuadfi (Meningitis)</strong>
+                                                <p>Untuk penugasan peacekeeping atau misi internasional</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-syringe"></i>
+                                            <div>
+                                                <strong>Stamaril Pasteur (Yellow Fever)</strong>
+                                                <p>Untuk penugasan di negara-negara Afrika - Booster setiap 10 tahun</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                             <a href="https://docs.google.com/document/d/1q3D0l1vGyoO21kztkux9SuAYxPj16zAQgbr2_mh-hQk/edit?usp=sharing" target="_blank" class="doc-access-btn">
+                                    <i class="fas fa-book"></i>
+                                    <span>Reference</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <!-- 4. Price List -->
+            <div class="hub-card" data-hub="price">
+                <div class="hub-header">
+                    <div class="hub-icon-wrapper">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <div class="hub-title">
+                        <h3>Price List</h3>
+                        <p>Daftar Harga Vaksin</p>
+                    </div>
+                    <div class="hub-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="hub-content">
+                    <!-- Vaccine Reguler Subsection with Dropdown -->
+                                        <div class="travel-subsection-dropdown">
+                                            <div class="subsection-dropdown-header">
+                                                <div class="subsection-icon">
+                                                    <i class="fas fa-medkit"></i>
+                                                </div>
+                                                <h4>Vaccine Reguler</h4>
+                                                <div class="subsection-toggle">
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="subsection-dropdown-content">
+                                                 <a href="https://drive.google.com/file/d/1GvvHblmnpMC_t2JwvFgdMjwOVIYJhqky/view?usp=sharing" target="_blank" class="doc-access-btn">
+                                                        <i class="fas fa-book"></i>
+                                                        <span>Reference</span>
+                                                        <i class="fas fa-external-link-alt"></i>
+                                                    </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Inaproc 6 with Dropdown -->
+                                        <div class="travel-subsection-dropdown">
+                                            <div class="subsection-dropdown-header">
+                                                <div class="subsection-icon">
+                                                    <i class="fas fa-prescription"></i>
+                                                </div>
+                                                <h4>Inaproc 6</h4>
+                                                <div class="subsection-toggle">
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="subsection-dropdown-content">
+                                                
+                                                <a href="https://drive.google.com/file/d/1iVoWEwfhsL-ZYkEiX3SULmjdY6NE51v0/view?usp=sharing" class="doc-access-btn">
+                                                        <i class="fas fa-book"></i>
+                                                        <span>Reference</span>
+                                                        <i class="fas fa-external-link-alt"></i>
+                                                    </a>
+                                            </div>
+                                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <!-- MAP DI ATAS -->
+        <div class="footer-map">
+            <h3>📍 Lokasi Kami</h3>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435561.963298711!2d105.81544190895418!3d-6.365932985608599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f56de94882b1%3A0x6707554cd9a51ab!2sPT%20Kalventis%20Sinergi%20Farma!5e0!3m2!1sen!2sid!4v1766422743474!5m2!1sen!2sid"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- INFO DI BAWAH MAP -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PT Kalventis Sinergi Farma</h3>
+                <p>Jl. Jend. Ahmad Yani No. 2</p>
+                <p>Kayu Putih, Pulogadung</p>
+                <p>Jakarta Timur, 13210, Indonesia</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p class="contact-item whatsapp">
+                    <i class="fab fa-whatsapp"></i> +62 812 1333 066
+                </p>
+                <p class="contact-item email">
+                    <i class="fas fa-envelope"></i> hendri.effendy@kalventis.com
+                </p>
+                <p class="contact-item website">
+                    <i class="fas fa-globe"></i> www.kalventis.co.id
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Key Account Manager</h3>
+                <p><strong>apt. Hendri Effendy S.Si</strong></p>
+                <p>Siap melayani kebutuhan vaksinasi Anda</p>
+            </div>
+        </div>
+
+        <center><img width="350" height="200" src="kartu.jpg"></center>
+
+        <div class="footer-bottom">
+            <p>&copy; 2019 apt. Hendri Effendy S.Si. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+
+</html>

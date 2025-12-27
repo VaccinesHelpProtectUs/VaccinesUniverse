@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="thumb.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login - Portofolio Vaccines PT Kalventis</title>
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="swan-lake.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Music Control Button -->
+    <button id="musicToggle" class="music-toggle" aria-label="Toggle background music">
+        <i class="fas fa-volume-up"></i>
+    </button>
+
+    <div class="login-container">
+        <div class="login-card">
+            <div class="logo-section">
+                <img src="KALVENTIS.jpg" alt="PT Kalventis Logo" class="logo">
+                <h1>Vaccines Universe</h1>
+                <h2>Creating Vaccines, giving strength to life.</h2>
+            </div>
+
+            <div class="warning-section">
+                <div class="warning-box">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Perhatian</h3>
+                    <p style="color: #c25c13;">For HealthCare Professional Only</p>
+                    <hr>
+                    <p>Website berikut ini merupakan informasi untuk kalangan medis, <strong>bukan untuk kalangan awam</strong>. Mohon untuk tidak dishare di social media.</p>
+                </div>
+            </div>
+
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="password">
+                        <i class="fas fa-lock"></i> Password
+                    </label>
+                    <div class="password-input-wrapper">
+                        <input type="password" id="password" name="password" placeholder="Masukkan password" required autocomplete="off">
+                        <button type="button" class="toggle-password" id="togglePassword">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="error-message" id="errorMessage">
+                    <i class="fas fa-times-circle"></i>
+                    <span>Password salah! Silakan coba lagi.</span>
+                </div>
+
+                <button type="submit" class="btn-login">
+                    <i class="fas fa-sign-in-alt"></i> Masuk
+                </button>
+
+                <div class="forgot-password">
+                    <a href="https://wa.me/628121333066?text=Halo%20apt.%20Hendri%20Effendy%2C%20saya%20lupa%20password%20untuk%20mengakses%20website%20Portofolio%20Vaccines.%20Mohon%20bantuannya." target="_blank" class="forgot-link">
+                        <i class="fab fa-whatsapp"></i> Lupa Password?
+                    </a>
+                </div>
+            </form>
+
+            <div class="footer-info">
+                <p>apt. Hendri Effendy S.Si</p>
+                <p>Key Account Manager</p>
+            </div>
+        </div>
+
+        <div class="background-decoration">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+</html>
